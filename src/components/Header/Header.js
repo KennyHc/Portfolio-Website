@@ -10,15 +10,23 @@ import {
   Div3,
   NavLink,
   SocialIcons,
+  Span,
 } from './HeaderStyles'
 
 const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: 'flex', alignItems: 'center', color: 'white' }}>
-          <DiCssdeck size="3rem"></DiCssdeck>
-          <span>Portfolio</span>
+        <a
+          style={{
+            display: 'flex',
+            alignItems: 'center',
+            color: 'white',
+            marginBottom: '20px',
+          }}
+        >
+          <DiCssdeck size="3rem" style={{ marginRight: '-2rem' }}></DiCssdeck>
+          <Span>Kenny He</Span>
         </a>
       </Link>
     </Div1>
@@ -40,6 +48,14 @@ const Header = () => (
         </Link>
       </li>
     </Div2>
+    <Div3>
+      <SocialIcons href="https://github.com/KennyHc">
+        <AiFillGithub size="3rem" />
+      </SocialIcons>
+      <SocialIcons href="https://www.linkedin.com/in/kenny-he-chen">
+        <AiFillLinkedin size="3rem" />
+      </SocialIcons>
+    </Div3>
   </Container>
 )
 
