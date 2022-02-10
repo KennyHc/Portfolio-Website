@@ -22,7 +22,7 @@ const Header = () => (
         </a>
       </Link>
     </Div1>
-    {/* Navigation Links */}
+    {/* Navigation Link */}
     <Div2>
       <li>
         <Link href="#projects">
