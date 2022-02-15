@@ -40,6 +40,17 @@ const Footer = () => {
           </LinkItem>
         </LinkColumn>
       </LinkList>
+      <SocialIconsContainer>
+        <CompanyContainer>
+          Every mistake is a learning opportunity
+        </CompanyContainer>
+        <SocialIcons href="https://github.com/KennyHc">
+          <AiFillGithub size="3rem" />
+        </SocialIcons>
+        <SocialIcons href="https://www.linkedin.com/in/kenny-he-chen">
+          <AiFillLinkedin size="3rem" />
+        </SocialIcons>
+      </SocialIconsContainer>
     </FooterWrapper>
   )
 }
