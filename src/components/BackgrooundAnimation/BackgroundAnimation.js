@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const BackgroundAnimation = () => (
   <div>
@@ -87,7 +87,7 @@ const BackgroundAnimation = () => (
         transform="translate(-476.525 -363.313) rotate(90 476.525 363.313)"
         fill="#945DD6"
       >
-        <animateMotion dur="10s" repeatCount="indefinite" rotate="auto">
+        <animateMotion dur="15s" repeatCount="indefinite" rotate="auto">
           <mpath xlinkHref="#path_0" />
         </animateMotion>
       </ellipse>
@@ -360,6 +360,6 @@ const BackgroundAnimation = () => (
       </defs>
     </svg>
   </div>
-);
+)
 
-export default BackgroundAnimation;
+export default BackgroundAnimation
